@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    height: 100%;
+    margin-top: 15px;
+}
+
+.container {
+    padding: 0px 10px;
+}
+
+body{
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search label{
+    position: relative;
+}
+.search input{
+    border:none;
+    border-bottom: 1px solid silver;
+    height: 35px;
+}
+.search button {
+    border: none;
+    background: none;
+    position: absolute;
+    left: 225px;
+    top: 23px;
+}
+
+.menu__btn {
+    background-color: silver;
+    border-radius: 15%;
+    border: 0.5px solid rgb(170, 169, 169);
+    height: 40px;
+    width: 40px;
+}
+
+.breadcrumbs {
+    margin-top: 10px;
+}
+
+.breadcrumbs ul {
+    flex-wrap: wrap;
+    display: flex;
+    list-style-type: none;
+}
+
+.breadcrumbs ul li {
+    color: silver;
+    margin-right: 5px;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.stars {
+    margin-top: 15px;
+}
+
+.stars ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.stars ul li {
+    margin-right: 5px;
+}
+
+.characteristic {
+    height: 50px;
+    margin-top: 15px;
+    background-color: silver;
+}
+
+
+.characteristic ul {
+    width: auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items:center;
+}
+
+.characteristic  li {
+    font-size: 12px;
+}
+
+.character__menu a {
+    text-decoration: none; 
+}
+
+
+.character__menu a:hover {
+    color:blue;
+    cursor: pointer;
+    border-bottom: 3px solid blue;
+    line-height: 15px;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+
+.card {
+    z-index: 1;
+    position: relative;
+}
+
+.card .photo img {
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+.card .photo.active  {
+    clip-path: circle(200% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+}
+
+.card .photo {
+    width: 300px;
+    z-index: 1;
+    position: absolute;
+    clip-path: circle(0% at 0 50%);
+}
+
+.card .card__nav {
+    width: 95px;
+    height: 20px;
+    background: silver;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 255px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px 50px 50px 50px;
+}
+
+.card .card__nav .btn {
+    background: rgb(255, 255, 255);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card .card__nav .btn.active {
+    background: rgb(6, 19, 255); 
+}
