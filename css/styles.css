@@ -109,9 +109,9 @@ body{
 
 
 .character__menu a:hover {
-    color:blue;
+    color: #195a9e;
     cursor: pointer;
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid  #195a9e;
     line-height: 15px;
 }
 
@@ -171,7 +171,7 @@ body{
 }
 
 .main .card .card__nav .btn.active {
-    background: rgb(6, 19, 255); 
+    background:  #195a9e; 
 }
 
 
@@ -219,10 +219,10 @@ body{
     justify-content: space-around;
     padding: 5px;
     align-items:center;
-    background-color: rgb(61, 61, 177);
+    background-color:  #195a9e;
     height: 40px;
     border-radius: 5px;
-    border: 0.5px solid rgb(61, 61, 177);
+    border: 0.5px solid  #195a9e;
 }
 .basket .basket__slider .toFavorites {
     color: rgb(81, 80, 80);
@@ -245,8 +245,8 @@ body{
     align-items:center;
     height: 40px;
     border-radius: 5px;
-    background-color: rgb(7, 197, 7);
-    border: 0.5px solid rgb(7, 197, 7);
+    background-color: #0dc143;
+    border: 0.5px solid #0dc143);
 }
 
 
