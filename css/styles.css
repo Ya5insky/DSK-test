@@ -269,7 +269,7 @@ body{
 
 .counter-plus button {
     border: 0px;
-    background-color: rgb(61, 61, 177);
+    background-color: #195a9e;
     border-radius: 50%;
     height: 30px;
     width: 30px;
@@ -295,4 +295,37 @@ body{
     width: 30px;
     height: 30px;
     
+}
+
+.price .pin {
+    color: #c9c9c9;
+    padding-bottom: 10px;
+}
+
+.price span {
+    color: #195a9e;
+}
+
+.price p {
+    color: black;
+    font-size: 20px;
+}
+
+.price h2 {
+    color: #195a9e;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.descr__list-text {
+    color: black;
+}
+
+.descr__list-text span {
+    color: #c9c9c9;
+}
+
+.title__name h2 {
+    font-size: 32px;
 }
