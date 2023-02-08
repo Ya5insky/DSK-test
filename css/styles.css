@@ -16,6 +16,7 @@
 
 body{
     min-width: 320px;
+    max-width: 425px;
     overflow-x: hidden;
 }
 
@@ -180,4 +181,118 @@ body{
 
 .discr__list {
     margin-top: 20px;
+}
+
+.basket {
+    margin-top: 20px;
+}
+
+.basket .container{
+    border: 0.5px solid #c9c9c9;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 0;
+}
+
+.basket__descr {
+    margin: 20px;
+}
+
+.basket .basket__slider {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.basket .basket__slider .counter {
+    padding: 5px;
+    align-items:center;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(218, 215, 215);
+}
+.basket .basket__slider .addToCart {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    align-items:center;
+    background-color: rgb(61, 61, 177);
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(61, 61, 177);
+}
+.basket .basket__slider .toFavorites {
+    color: rgb(81, 80, 80);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    align-items:center;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #c9c9c9;
+    border: 0.5px solid rgb(218, 215, 215);
+}
+.basket .basket__slider .call {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    align-items:center;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(7, 197, 7);
+    border: 0.5px solid rgb(7, 197, 7);
+}
+
+
+.counter__basis {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.counter-minus button {
+    background-color: #c9c9c9;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-plus button {
+    border: 0px;
+    background-color: rgb(61, 61, 177);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.social {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social p {
+    font-size: 12px;
+    color: #c9c9c9;
+}
+
+
+.social__link img {
+    width: 30px;
+    height: 30px;
+    
 }
